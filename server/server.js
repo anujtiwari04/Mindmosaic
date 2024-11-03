@@ -105,9 +105,9 @@ app.post('/login',async (req,res) => {
 
 
 app.get('/',(req,res) => {
-    res.send("hello welcome");
+    res.send("welcome to mindmosaic");
 })
 app.listen(port,() => {
     console.log("listning on port " + port)
 })
-require('./dbconnection');
+require('./dbconnection'); 
