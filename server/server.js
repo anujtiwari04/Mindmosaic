@@ -12,7 +12,13 @@ app.use(cors())
 
 
 
-
+app.use(cors(
+    {
+        origin: "https://mindmosaic-client.vercel.app/",
+        methods: ["GET","POST"],
+        credentials: true,
+    }
+))
 
 
 
