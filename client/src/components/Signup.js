@@ -18,7 +18,7 @@ const Signup = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const res = await fetch('https://mindmosaic-server.vercel.app//register',
+        const res = await fetch('https://mindmosaic-server.vercel.app/register',
             {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
