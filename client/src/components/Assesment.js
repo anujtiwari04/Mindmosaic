@@ -92,7 +92,7 @@ function Assessment() {
         // Add error handling for missing API key
         if (!apiKey) {
             console.error('API key is missing');
-            setResponse('Error: API key is not configured');
+            setResponse('Error: Please contact support. API configuration is missing.');
             setIsLoading(false);
             return;
         }
