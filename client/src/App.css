@@ -776,7 +776,7 @@ body {
 .arrow {
   font-size: 1.5rem;
   color: #ddd;
-  background-color: none;
+  background-color: transparent;
 }
 
 .faq-answer {
