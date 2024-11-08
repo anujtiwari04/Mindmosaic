@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(cors(
     {
-        origin: "https://mindmosaic-client.vercel.app",
+        origin: "https://mosaicmind.vercel.app",
         methods: ["GET","POST"],
         credentials: true,
     }
