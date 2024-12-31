@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar__logo">
-                <Link to="/">
+                <Link to="/home">
                     <img src={logo} alt="logo" />
                     <span>Mindmosaic</span>
                 </Link>
